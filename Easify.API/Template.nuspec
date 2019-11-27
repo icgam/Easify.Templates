@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>ICG.Template.DotNetCore.WebAPI</id>
+        <version>1.0.0</version>
+        <description>Template for full solution webapi</description>
+        <authors>Mohammad Moattar</authors>
+        <packageTypes>
+            <packageType name="Template" />
+        </packageTypes>
+    </metadata>
+    <files>
+        <file src="**" exclude="**\bin\**\*;**\obj\**\*;**\*.user;**\*.lock.json" />
+    </files>
+</package>
