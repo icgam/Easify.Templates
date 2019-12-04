@@ -4,11 +4,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Template.Core.Data
 {
-    public class AppDbContext : DbContextBase
+    public sealed class AppDbContext : DbContextBase
     {
-        public AppDbContext(DbContextOptions options, IOperationContext context) : base(options, context)
-        {
-        }
+        public AppDbContext(DbContextOptions options, IOperationContext context) : base(options, context) { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
