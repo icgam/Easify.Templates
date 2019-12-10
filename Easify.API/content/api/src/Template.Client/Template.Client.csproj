@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Easify.RestEase" Version="1.0.10" />
+    <PackageReference Include="Easify.RestEase" Version="1.0.19" />
   </ItemGroup>
 
   <ItemGroup>
