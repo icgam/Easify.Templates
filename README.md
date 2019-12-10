@@ -1,20 +1,17 @@
+# Solution templates for Easify
 
-# Solution templates for .Net Core
-The repository contains the template to generate different solution for .net core base on ICG library
+The repository contains the template to generate different solution for based on Easify framework. The template generates the required structure for WebAPI based solution using dotnet cli
 
-## Web API
-This template generates the required structure for WebAPI based solution using dotnet cli
+## Installation
 
-### Installation
 To install the template for the dotnet command line use the following command:
 
-``dotnet new --install "ICG.Template.DotNetCore.WebAPI::*"``
+`dotnet new --install "Easify.API::*"`
 
 it will add the template in list of available template for cli.
 
 ### Usage
+
 To generate a sample project such as ICG.Bloomberg use the following command:
 
-``dotnet new icgwebapisln -n "ICG.Bloomberg"``
-
-
+`dotnet new easify-api -n "Sample.API"`

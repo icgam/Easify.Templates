@@ -4,13 +4,12 @@ Description comes here
 
 ## Dependencies
 
-Dependency list should be relfected here. 
+Dependency list should be reflected here.
 
 ## Configurations
 
-The set of configurations such as connection to the database etc should be defined here. 
+The set of configurations such as connection to the database etc should be defined here.
 
 ## How to run
 
-How to run instructions are coming here 
-
+How to run instructions are coming here
