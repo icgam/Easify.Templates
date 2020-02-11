@@ -15,7 +15,7 @@ namespace Template.WebApi.Extensions
 
             app.Run(async context =>
             {
-                var content = LoadTemplateFromEmbeddedResource(applicationName);
+                var content = LoadStartPageFromEmbeddedResource(applicationName);
                 if (string.IsNullOrEmpty(content))
                     content = applicationName;
 
@@ -24,10 +24,10 @@ namespace Template.WebApi.Extensions
             });
         }
 
-        private static string LoadTemplateFromEmbeddedResource(string applicationName)
+        private static string LoadStartPageFromEmbeddedResource(string applicationName)
         {
             var assembly = typeof(Startup).Assembly;
-            var resourceName = assembly.GetManifestResourceNames().First(s => s.EndsWith("home.html",StringComparison.CurrentCultureIgnoreCase));
+            var resourceName = assembly.GetManifestResourceNames().First(s => s.EndsWith("home.html", StringComparison.CurrentCultureIgnoreCase));
             if (string.IsNullOrEmpty(resourceName))
                 return null;
 
