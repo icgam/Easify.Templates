@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Template.WebApi\Template.WebApi.csproj" />
+    <ProjectReference Include="..\Easify.Template.WebApi\Easify.Template.WebApi.csproj" />
   </ItemGroup>
 
 </Project>

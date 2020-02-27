@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace Template.Core.Shared.Profiles
+namespace Easify.Template.Core.Shared.Profiles
 {
     public class MappingProfile : Profile
     {

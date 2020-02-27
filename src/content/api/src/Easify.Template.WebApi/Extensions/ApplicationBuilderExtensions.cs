@@ -4,7 +4,7 @@ using System.Linq;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace Template.WebApi.Extensions
+namespace Easify.Template.WebApi.Extensions
 {
     public static class ApplicationBuilderExtensions
     {

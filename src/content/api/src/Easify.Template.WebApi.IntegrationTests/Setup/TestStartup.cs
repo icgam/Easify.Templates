@@ -2,9 +2,9 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Template.Core.Data;
-using Template.WebApi.Extensions;
+using Easify.Template.WebApi.Extensions;
 
-namespace Template.WebApi.IntegrationTests.Setup
+namespace Easify.Template.WebApi.IntegrationTests.Setup
 {
     public class TestStartup : Startup
     {

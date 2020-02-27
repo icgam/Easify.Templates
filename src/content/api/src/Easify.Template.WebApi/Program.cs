@@ -2,7 +2,7 @@
 using Easify.Logging.SeriLog.Loggly;
 using Microsoft.AspNetCore.Hosting;
 
-namespace Template.WebApi
+namespace Easify.Template.WebApi
 {
     public class Program
     {

@@ -26,7 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Template.Core\Template.Core.csproj" />
+    <ProjectReference Include="..\Easify.Template.Core\Easify.Template.Core.csproj" />
   </ItemGroup>
 
 </Project>

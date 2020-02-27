@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Template.Core.Shared.Exceptions
+namespace Easify.Template.Core.Shared.Exceptions
 {
     public class AppException : Exception
     {

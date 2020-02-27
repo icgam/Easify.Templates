@@ -1,4 +1,4 @@
-﻿namespace Template.Core.Data
+﻿namespace Easify.Template.Core.Data
 {
     public static class ModelBuilderExtensions
     {

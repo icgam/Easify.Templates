@@ -7,12 +7,12 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Template.Core.Shared.Exceptions;
-using Template.Core.Shared.Profiles;
-using Template.WebApi.Configurations;
-using Template.WebApi.Extensions;
+using Easify.Template.Core.Shared.Exceptions;
+using Easify.Template.Core.Shared.Profiles;
+using Easify.Template.WebApi.Configurations;
+using Easify.Template.WebApi.Extensions;
 
-namespace Template.WebApi
+namespace Easify.Template.WebApi
 {
     public class Startup
     {

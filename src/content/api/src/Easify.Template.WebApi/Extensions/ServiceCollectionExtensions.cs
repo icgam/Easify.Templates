@@ -3,10 +3,10 @@ using Easify.Ef;
 using MediatR;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Template.Core.Data;
-using Template.Core.Shared;
+using Easify.Template.Core.Data;
+using Easify.Template.Core.Shared;
 
-namespace Template.WebApi.Extensions
+namespace Easify.Template.WebApi.Extensions
 {
     public static class ServiceCollectionExtensions
     {

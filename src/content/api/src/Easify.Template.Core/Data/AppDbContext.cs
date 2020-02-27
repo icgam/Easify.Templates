@@ -2,7 +2,7 @@
 using Easify.Http;
 using Microsoft.EntityFrameworkCore;
 
-namespace Template.Core.Data
+namespace Easify.Template.Core.Data
 {
     public sealed class AppDbContext : DbContextBase
     {
