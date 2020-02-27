@@ -1,11 +1,14 @@
 {
   "author": "Mohammad Moattar",
-  "classifications": [ "API", "Easify" ], 
+  "classifications": [
+    "API",
+    "Easify"
+  ],
   "name": "Easify API Solution",
-  "identity": "Template.API",   
-  "shortName": "easify-api",                 
+  "identity": "Easify.Template.API",
+  "shortName": "easify-api",
   "tags": {
-    "language": "C#"                      
+    "language": "C#"
   },
-  "sourceName": "Template"           
+  "sourceName": "Easify.Template"
 }
