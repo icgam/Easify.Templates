@@ -2,17 +2,17 @@
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Core", "Template.Core\Template.Core.csproj", "{1BF0AE35-BB5C-4AC6-8E82-ACB4862B321C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Easify.Template.Core", "Easify.Template.Core\Easify.Template.Core.csproj", "{1BF0AE35-BB5C-4AC6-8E82-ACB4862B321C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Core.UnitTests", "Template.Core.UnitTests\Template.Core.UnitTests.csproj", "{32DDF154-ADD3-4044-83AC-8B94BD5E62AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Easify.Template.Core.UnitTests", "Easify.Template.Core.UnitTests\Easify.Template.Core.UnitTests.csproj", "{32DDF154-ADD3-4044-83AC-8B94BD5E62AC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.WebApi", "Template.WebApi\Template.WebApi.csproj", "{812EA9FF-0BED-4586-A63A-F0528960F99A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Easify.Template.WebApi", "Easify.Template.WebApi\Easify.Template.WebApi.csproj", "{812EA9FF-0BED-4586-A63A-F0528960F99A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.WebApi.IntegrationTests", "Template.WebApi.IntegrationTests\Template.WebApi.IntegrationTests.csproj", "{1AD1570D-BF9A-40B7-B4AE-C6AFC95D12C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Easify.Template.WebApi.IntegrationTests", "Easify.Template.WebApi.IntegrationTests\Easify.Template.WebApi.IntegrationTests.csproj", "{1AD1570D-BF9A-40B7-B4AE-C6AFC95D12C2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Client", "Template.Client\Template.Client.csproj", "{D6DE27DD-F426-4EFF-83DD-934F85210C51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Easify.Template.Client", "Easify.Template.Client\Easify.Template.Client.csproj", "{D6DE27DD-F426-4EFF-83DD-934F85210C51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Common", "Template.Common\Template.Common.csproj", "{0CC4C541-2764-4A17-9CFE-7DC10F19D3EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easify.Template.Common", "Easify.Template.Common\Easify.Template.Common.csproj", "{0CC4C541-2764-4A17-9CFE-7DC10F19D3EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

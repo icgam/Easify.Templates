@@ -1,7 +1,7 @@
 ﻿using Easify.Ef.Testing;
+using Easify.Template.Core.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Template.Core.Data;
 using Easify.Template.WebApi.Extensions;
 
 namespace Easify.Template.WebApi.IntegrationTests.Setup
