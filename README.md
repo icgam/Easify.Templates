@@ -12,6 +12,6 @@ it will add the template in list of available template for cli.
 
 ### Usage
 
-To generate a sample project such as ICG.Bloomberg use the following command:
+To generate a sample solution such as Sample.API use the following command:
 
 `dotnet new easify-api -n "Sample.API"`

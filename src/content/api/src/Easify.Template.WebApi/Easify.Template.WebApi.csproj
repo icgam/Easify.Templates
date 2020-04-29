@@ -18,11 +18,11 @@
 
   <ItemGroup>
     <PackageReference Include="Flache.CacheManager" Version="1.0.10" />
-    <PackageReference Include="Easify.RestEase" Version="1.0.19" />
-    <PackageReference Include="Easify.Hosting.Core" Version="1.0.19" />
-    <PackageReference Include="Easify.AspNetCore.Bootstrap" Version="1.0.19" />
-    <PackageReference Include="Easify.Logging.SeriLog.Loggly" Version="1.0.19" />
-    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Easify.RestEase" Version="1.1.0" />
+    <PackageReference Include="Easify.Hosting.Core" Version="1.1.0" />
+    <PackageReference Include="Easify.AspNetCore.Bootstrap" Version="1.1.0" />
+    <PackageReference Include="Easify.Logging.SeriLog.Loggly" Version="1.1.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
