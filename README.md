@@ -1,5 +1,7 @@
 # Solution templates for Easify
 
+[![Build status](https://ci.appveyor.com/api/projects/status/4119u1859aauex0k?svg=true)](https://ci.appveyor.com/project/moattarwork/easify-templates) ![](https://img.shields.io/nuget/v/Easify.Templates.svg?style=flat-square)
+
 The repository contains the template to generate different solution for based on Easify framework. The template generates the required structure for WebAPI based solution using dotnet cli
 
 ## Installation
