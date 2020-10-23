@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,12 +18,11 @@
 
   <ItemGroup>
     <PackageReference Include="Flache.CacheManager" Version="1.0.10" />
-    <PackageReference Include="Easify.RestEase" Version="2.1.0" />
-    <PackageReference Include="Easify.Hosting.Core" Version="2.1.0" />
-    <PackageReference Include="Easify.AspNetCore.Bootstrap" Version="2.1.0" />
-    <PackageReference Include="Easify.Logging.SeriLog.Loggly" Version="2.1.0" />
-    <PackageReference Include="Easify.Logging.SeriLog.Seq" Version="2.1.0" />
-    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Easify.RestEase" Version="3.0.1" />
+    <PackageReference Include="Easify.AspNetCore.Bootstrap" Version="3.0.1" />
+    <PackageReference Include="Easify.Logging.SeriLog.Loggly" Version="3.0.1" />
+    <PackageReference Include="Easify.Logging.SeriLog.Seq" Version="3.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
   </ItemGroup>
 
   <ItemGroup>
