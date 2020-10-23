@@ -9,10 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Templates\home.html" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwroot\.gitkeep" />
   </ItemGroup>
 
