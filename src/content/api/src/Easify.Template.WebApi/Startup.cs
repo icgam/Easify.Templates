@@ -23,10 +23,9 @@ namespace Easify.Template.WebApi
 
         public IConfiguration Configuration { get; }
 
-
-        public IServiceProvider ConfigureServices(IServiceCollection services)
+        public void ConfigureServices(IServiceCollection services)
         {
-            return services.BootstrapApp<Startup>(Configuration,
+            services.BootstrapApp<Startup>(Configuration,
                 app => app
                     .AddConfigSection<Clients>()
                     .HandleApplicationException<AppException>()
@@ -38,12 +37,10 @@ namespace Easify.Template.WebApi
 
         public void Configure(
             IApplicationBuilder app,
-            IHostingEnvironment env,
+            IWebHostEnvironment env,
             ILoggerFactory loggerFactory)
         {
-            var application = Configuration.GetApplicationInfo();
             app.UseDefaultApiPipeline(Configuration, env, loggerFactory);
-            app.UseStartPage(application.Name);
         }
 
         protected virtual IServiceCollection AddServices(IServiceCollection services, IConfiguration configuration)
