@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>8</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,10 +12,13 @@
 
   <ItemGroup>
     <PackageReference Include="MediatR" Version="9.0.0" />
-    <PackageReference Include="Easify" Version="3.0.1" />
-    <PackageReference Include="Easify.Ef" Version="1.0.7" />
-    <PackageReference Include="Easify.RestEase.Client" Version="3.0.1" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+    <PackageReference Include="Easify" Version="3.0.4" />
+    <PackageReference Include="Easify.Ef" Version="3.0.8" />
+    <PackageReference Include="Easify.RestEase.Client" Version="3.0.4" />
  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Easify.Template.Common\Easify.Template.Common.csproj" />
+  </ItemGroup>
 
 </Project>
