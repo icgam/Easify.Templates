@@ -13,7 +13,7 @@
   <ItemGroup>
     <PackageReference Include="MediatR" Version="9.0.0" />
     <PackageReference Include="Easify" Version="3.0.4" />
-    <PackageReference Include="Easify.Ef" Version="3.0.8" />
+    <PackageReference Include="Easify.Ef" Version="3.0.9" />
     <PackageReference Include="Easify.RestEase.Client" Version="3.0.4" />
  </ItemGroup>
 
