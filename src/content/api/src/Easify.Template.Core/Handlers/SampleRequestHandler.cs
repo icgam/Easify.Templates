@@ -33,7 +33,7 @@ namespace Easify.Template.Core.Handlers
             }
             catch (Exception e)
             {
-                _logger.LogError("Error in loading and exporting regions", e);
+                _logger.LogError("Error in loading samples", e);
                 return SampleRequestResult.Fail(e.Message);
             }
         }
