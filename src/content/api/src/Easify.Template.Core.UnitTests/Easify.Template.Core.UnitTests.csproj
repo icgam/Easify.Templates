@@ -5,9 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Easify.Ef.Testing" Version="1.0.7" />
-    <PackageReference Include="Easify.Testing" Version="3.0.1" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
+    <PackageReference Include="Easify.Ef.Testing" Version="3.0.9" />
+    <PackageReference Include="Easify.Testing" Version="3.0.4" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.8.0" />
     <PackageReference Include="xunit" Version="2.4.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
       <PrivateAssets>all</PrivateAssets>
