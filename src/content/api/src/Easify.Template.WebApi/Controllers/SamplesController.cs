@@ -15,7 +15,7 @@ namespace Easify.Template.WebApi.Controllers
         {
             _mediator = mediator ?? throw new ArgumentNullException(nameof(mediator));
         }
-        
+
         [HttpGet]
         public async Task<IActionResult> Get()
         {

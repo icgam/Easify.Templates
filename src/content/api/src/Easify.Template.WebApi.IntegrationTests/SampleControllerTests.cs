@@ -18,7 +18,7 @@ namespace Easify.Template.WebApi.IntegrationTests
         }
 
         [Fact]
-        public async Task Should_GetCompanyNavListAsync_ReturnTheNav_WhenTheRequestIsValid()
+        public async Task Should_GetSampleListAsync_ReturnTheSamples_WhenTheRequestIsValid()
         {
             // Arrange
             using var pair = _fixture.CreateClientFromServer<ISampleClient>(s => { });
