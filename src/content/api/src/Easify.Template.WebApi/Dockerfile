@@ -1,13 +1,13 @@
-FROM mcr.microsoft.com/dotnet/core/aspnet:5.0 AS base
+FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS base
 WORKDIR /app
 EXPOSE 80
 
-FROM mcr.microsoft.com/dotnet/core/sdk:5.0 AS build
-WORKDIR /src
+FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
+WORKDIR  /src
 COPY Easify.Template.sln ./
 COPY Easify.Template.WebApi/Easify.Template.WebApi.csproj Easify.Template.WebApi/
 COPY Easify.Template.Core/Easify.Template.Core.csproj Easify.Template.Core/
-RUN dotnet restore 
+RUN dotnet restore
 COPY . .
 WORKDIR /src/Easify.Template.WebApi
 RUN dotnet build -c Release -o /app
