@@ -12,14 +12,17 @@ COPY Easify.Template.Core.UnitTests/*.csproj ./Easify.Template.Core.UnitTests/
 COPY Easify.Template.Common/*.csproj ./Easify.Template.Common/
 COPY Easify.Template.Client/*.csproj ./Easify.Template.Client/
 RUN dotnet restore
+
 COPY . .
-WORKDIR /src/Easify.Template.WebApi
-RUN dotnet build -c Release -o /app
+WORKDIR /src
+RUN dotnet build -c Release -o /app/build
+RUN dotnet test -c Release
 
 FROM build AS publish
-RUN dotnet publish -c Release -o /app
+WORKDIR /src/Easify.Template.WebApi
+RUN dotnet publish -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
-COPY --from=publish /app .
+COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "Easify.Template.WebApi.dll"]
