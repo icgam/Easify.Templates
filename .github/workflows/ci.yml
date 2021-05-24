@@ -39,7 +39,7 @@ jobs:
           echo "Version: ${{ steps.gitversion.outputs.semVer }}"
       - name: pack
         run: |
-          dotnet pack src/templatepack.csproj -p:version=${{ steps.gitversion.outputs.semVer }}
+          dotnet pack src/templatepack.csproj -p:PackageVersion=${{ steps.gitversion.outputs.semVer }}
       - name: Collect Artifacts
         uses: actions/upload-artifact@v2
         with:
