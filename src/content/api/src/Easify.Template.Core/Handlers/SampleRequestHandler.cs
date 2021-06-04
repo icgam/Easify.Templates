@@ -13,12 +13,10 @@ namespace Easify.Template.Core.Handlers
 {
     public class SampleRequestHandler : IRequestHandler<SampleRequest, SampleRequestResult>
     {
-        private readonly IUnitOfWork<AppDbContext> _unitOfWork;
         private readonly ILogger<SampleRequestHandler> _logger;
 
-        public SampleRequestHandler(IUnitOfWork<AppDbContext> unitOfWork, ILogger<SampleRequestHandler> logger)
+        public SampleRequestHandler(ILogger<SampleRequestHandler> logger)
         {
-            _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
@@ -28,7 +26,7 @@ namespace Easify.Template.Core.Handlers
             {
                 _logger.LogInformation($"Loading the list of samples");
                 var samples = await LoadSamplesAsync();
-                
+
                 return SampleRequestResult.Success(samples);
             }
             catch (Exception e)

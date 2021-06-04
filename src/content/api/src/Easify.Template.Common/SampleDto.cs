@@ -1,6 +1,6 @@
 ﻿namespace Easify.Template.Common
 {
-    public class SampleDto
+    public record SampleDto
     {
         public string Name { get; set; }
     }

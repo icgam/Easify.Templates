@@ -11,12 +11,12 @@ namespace Easify.Template.Core.Handlers
 
         public static SampleRequestResult Fail(string message)
         {
-            return new SampleRequestResult {ErrorMessage = message, HasError = true};
+            return new() {ErrorMessage = message, HasError = true};
         }
 
         public static SampleRequestResult Success(IEnumerable<Sample> samples)
         {
-            return new SampleRequestResult {ErrorMessage = string.Empty, HasError = false, Samples = samples};
+            return new() {ErrorMessage = string.Empty, HasError = false, Samples = samples};
         }
     }
 }

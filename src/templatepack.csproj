@@ -8,8 +8,8 @@
     <Authors>Mohammad Moattar</Authors>
     <Description>Template generator for Easify framework</Description>
     <PackageTags>dotnet-new;templates;easify</PackageTags>
+    <TargetFramework>net5.0</TargetFramework>
     <RepositoryUrl>https://github.com/icgam/Easify.Templates</RepositoryUrl>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <ContentTargetFolders>content</ContentTargetFolders>
